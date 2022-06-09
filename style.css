@@ -66,6 +66,7 @@
   width: 100%;
 }
 
+
 .footer {
   color: white;
   padding: 10px;
@@ -75,8 +76,7 @@
 text-align: center;
 }
 .footer a {
-  background-color: white;
-  color: black;
+  border: none;
   text-decoration: none;
   display: inline-block;
   margin: 20px;
@@ -86,13 +86,35 @@ text-align: center;
   line-height: 35px;
   transition: all 1s;
 }
+
 .footer a:hover{
   background-color: midnightblue;
 }
+*/
 
 .expandirImagem:hover{
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
 }
+
+.tamanhoLink{
+  height: 50px;
+}
+
+/*Responsivo*/
+@media only screen and (max-device-width: 900px) {
+  body header main figure footer {
+    width: 900px;
+  }
+
+  
+  }
+
+
+
+
+
+
+
 
